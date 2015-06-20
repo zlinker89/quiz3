@@ -29,6 +29,13 @@ header, nav,section,footer{
 nav span{
     margin: 0px 10px 0px 0px;
 }
+#ErrorMsg{
+    color: #f61;
+    position: absolute;
+    top: 130px;
+    right: 60px;
+    font-size: smaller;
+}
 #imagen{
     background-image: url(http://zlinker89.neocities.org/modulo%206%20node/img.JPG);
     background-size: 100% 100%;
