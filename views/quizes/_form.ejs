@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <label for="preg" class="rem">Pregunta:</label>
+        <input type="text" name="quiz[pregunta]" id="preg" value="<%= quiz.pregunta %>"/>
+        <br>
+        <label for="res" class="rem">Respuesta:</label>
+        <input type="text" name="quiz[respuesta]" id="res" value="<%= quiz.respuesta %>"/>
+        <br>
+        <a href="/quizes"><button type="button">Cancelar</button></a>
+        <input type="submit" value="Salvar">
+    </body>
+</html>
