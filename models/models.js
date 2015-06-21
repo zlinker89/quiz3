@@ -38,11 +38,13 @@ sequelize.sync().then(function () {
         if (count === 0) { // se inicializa solo si esta vacia
             Quiz.create({
                 pregunta: "¿Cual es la capital de Italia?",
-                respuesta: "roma"
+                respuesta: "roma",
+                tema: "humanidades"
             });
             Quiz.create({
                 pregunta: "¿Cual es la capital de Portugal?",
-                respuesta: "lisboa"
+                respuesta: "lisboa",
+                tema: "humanidades"
             });
         }
     });

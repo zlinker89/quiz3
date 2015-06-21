@@ -20,10 +20,10 @@ table{
     font-size: 12px !important;
 }
 section{
-    height: 300px;
+    height: 600px;
 }
 #ErrorMsg{
     top: 560px;
     right: 120px;
-    font-size: 14px; !important;
+    font-size: 14px !important;
 }
