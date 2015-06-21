@@ -22,3 +22,8 @@ table{
 section{
     height: 300px;
 }
+#ErrorMsg{
+    top: 560px;
+    right: 120px;
+    font-size: 14px; !important;
+}
